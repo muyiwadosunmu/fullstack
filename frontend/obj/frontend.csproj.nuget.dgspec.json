@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj": {}
+  },
+  "projects": {
+    "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj",
+        "projectName": "frontend",
+        "projectPath": "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj",
+        "packagesPath": "/home/struct/.nuget/packages/",
+        "outputPath": "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/struct/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.13, 7.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
