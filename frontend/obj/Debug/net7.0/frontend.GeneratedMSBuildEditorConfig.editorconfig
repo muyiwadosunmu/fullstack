@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = frontend
 build_property.RootNamespace = frontend
-build_property.ProjectDir = /home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/
+build_property.ProjectDir = /workspaces/fullstack/frontend/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend
+build_property.MSBuildProjectDirectory = /workspaces/fullstack/frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/App.razor]
+[/workspaces/fullstack/frontend/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/Pages/Counter.razor]
+[/workspaces/fullstack/frontend/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/Pages/FetchData.razor]
+[/workspaces/fullstack/frontend/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/Pages/Index.razor]
+[/workspaces/fullstack/frontend/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/Shared/SurveyPrompt.razor]
+[/workspaces/fullstack/frontend/Pages/User.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/fullstack/frontend/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/_Imports.razor]
+[/workspaces/fullstack/frontend/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/Shared/MainLayout.razor]
+[/workspaces/fullstack/frontend/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-z94sb5lxua
 
-[/home/struct/Desktop/Projects/C\#_Tutorials/fullstack/frontend/Shared/NavMenu.razor]
+[/workspaces/fullstack/frontend/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-13v76xft4n

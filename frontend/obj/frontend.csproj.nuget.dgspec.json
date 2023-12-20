@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj": {}
+    "/workspaces/fullstack/frontend/frontend.csproj": {}
   },
   "projects": {
-    "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj": {
+    "/workspaces/fullstack/frontend/frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj",
+        "projectUniqueName": "/workspaces/fullstack/frontend/frontend.csproj",
         "projectName": "frontend",
-        "projectPath": "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/frontend.csproj",
-        "packagesPath": "/home/struct/.nuget/packages/",
-        "outputPath": "/home/struct/Desktop/Projects/C#_Tutorials/fullstack/frontend/obj/",
+        "projectPath": "/workspaces/fullstack/frontend/frontend.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/fullstack/frontend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/struct/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -40,12 +40,12 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.9, )"
             }
           },
           "imports": [
@@ -62,7 +62,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.13, 7.0.13]"
+              "version": "[7.0.9, 7.0.9]"
             }
           ],
           "frameworkReferences": {
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

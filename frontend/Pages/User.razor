@@ -1,0 +1,39 @@
+@page "/users"
+@inject HttpClient httpClient
+
+
+<PageTitle>Users</PageTitle>
+
+
+<h1>Name of Users</h1>
+
+@code {
+    private string[]? userNames;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var apiUrl = "http://localhost:5102/User";
+            userNames = await httpClient.GetFromJsonAsync<string[]>(apiUrl);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+}
+
+@if (userNames == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+    @foreach (var name in userNames)
+        {
+            <li>@name</li>
+        }
+    </ul>
+}
